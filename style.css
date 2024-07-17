@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+  
+    background-image: url(https://media.istockphoto.com/id/664975134/photo/sticky-note-post-it-board-office.jpg?s=1024x1024&w=is&k=20&c=qrpXZGPoe4Sa5VpiD1i917v71KFew1b0obI-czIhtNI=);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h2,
+  h1 {
+    color: #050f10;
+    text-shadow: 2px 2px 3px white;
+  }
+  
+  #app {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #todolist {
+    border: 2px solid #5372d0;
+    border-radius: 12px;
+    width: 50%;
+    background-image: linear-gradient(skyblue, #7573ce);
+    box-shadow: 5px 8px 19px black inset;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    color: white;
+    text-shadow: 2px 3px 3px black;
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+    padding: 8px;
+  }
+  
+  .trash {
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+    margin-left: 12px;
+    cursor: pointer;
+  }
+  
+  #input {
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 400px;
+    padding: 12px;
+    height: 40px;
+  
+    border-radius: 12px;
+    border: none;
+    box-shadow: 3px 4px 8px black inset;
+    padding-left: 9px;
+  }
+  
+  #add {
+    background-color: #2bda36 !important;
+    width: 100px;
+    height: 45px;
+    color: #030803;
+    border: 1px solid #0a3701;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  #add:hover {
+    background-color: rgb(3, 7, 3);
+  
+    box-shadow: 2px 2px 70px 5px rgb(82, 190, 60);
+    color: white;
+  }
+  
+  h1 {
+    width: 200px;
+    margin: 10px auto;
+  }
+  
+  h2 {
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+  }
